@@ -1,14 +1,10 @@
 # CABL
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.qualcomm.cabl=0
+    ro.qualcomm.cabl=0
 
 # RAM
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.config.low_ram=false
-
-# Screen
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=213
+    ro.config.low_ram=false
 
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
