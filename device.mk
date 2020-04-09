@@ -6,6 +6,9 @@ $(call inherit-product-if-exists, vendor/samsung/gtesqltespr/gtesqltespr-vendor.
 
 LOCAL_PATH := device/samsung/gtesqltespr
 
+# Shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
+
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
