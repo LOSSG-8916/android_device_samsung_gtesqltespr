@@ -2,6 +2,11 @@
 # Inherit from common
 $(call inherit-product, device/samsung/gte-common/lineage.mk)
 
+ifeq ($(PRODUCT_TYPE),go)
+    # Inherit common Android Go configurations
+    $(call inherit-product, build/target/product/go_defaults.mk)
+endif
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
