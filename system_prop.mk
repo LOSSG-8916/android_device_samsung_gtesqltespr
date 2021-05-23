@@ -6,10 +6,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.config.low_ram=false
 
-# Screen
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=213
-
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_cdma_sub=0 \
