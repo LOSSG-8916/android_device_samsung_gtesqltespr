@@ -9,6 +9,9 @@ TARGET_OTA_ASSERT_DEVICE := gtesqltespr,samsung_sm_t377p,t377p
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gtes_spr_defconfig
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
+
 # Display
 TARGET_SCREEN_DENSITY := 213
 
