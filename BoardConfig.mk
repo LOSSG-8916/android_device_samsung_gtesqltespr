@@ -21,5 +21,6 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12767424512
 
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
+CUSTOM_APNS_FILE := $(LOCAL_PATH)/configs/apns-conf.xml
 BOARD_MODEM_TYPE := xmm7260
 TARGET_PROVIDES_RIL := true
