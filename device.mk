@@ -11,9 +11,3 @@ LOCAL_PATH := device/samsung/gtesqltespr
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gtesqltespr/overlay
-
-# RIL
-PRODUCT_PACKAGES += \
-	libril \
-	librilutils \
-	rild
