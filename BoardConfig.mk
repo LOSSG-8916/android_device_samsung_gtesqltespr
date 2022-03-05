@@ -12,6 +12,9 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gtes_spr_defconfig
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(LOCAL_PATH)/bluetooth
 
+# HIDL
+DEVICE_MANIFEST_FILE += device/samsung/matisselte/manifest.xml
+
 # Display
 TARGET_SCREEN_DENSITY := 213
 
