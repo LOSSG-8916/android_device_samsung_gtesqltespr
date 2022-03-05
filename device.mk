@@ -14,8 +14,3 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gtesqltespr/overlay
-
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl
-
